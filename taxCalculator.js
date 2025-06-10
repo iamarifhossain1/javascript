@@ -1,6 +1,6 @@
 
 
-function taxCalculator (harun) {
+function taxCalculator (incomeTax, expenseTax) {
     const income = 100000;
     const expense = 30000;
     const remainingMoney = income - expense;
@@ -13,5 +13,5 @@ function taxCalculator (harun) {
     return totalTax;
 }
 
-const result = taxCalculator ();
+const result = taxCalculator (5000, 2000);
 console.log ( 'Total tax on remaining money:', result, 'Taka');
